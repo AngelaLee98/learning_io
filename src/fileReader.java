@@ -9,10 +9,10 @@ import java.io.FileWriter;
 public class fileReader {
     public static void main(String[] args){
 
-        String fileName = "/Users/angelalee/Desktop/LineNew.txt";
+        String fileName = ".../Desktop/newFile.txt";
 
         try{
-            File file = new File("/Users/angelalee/Desktop/LineTest.txt");
+            File file = new File(".../Desktop/LineTest.txt");
             File fileMaking = new File(fileName);
             
             FileReader fileReader = new FileReader(file);
